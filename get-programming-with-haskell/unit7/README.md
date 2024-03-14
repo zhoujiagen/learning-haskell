@@ -79,3 +79,30 @@ ghci> main
 "|gov.noaa.ncdc:C00505|1970-05-12|2014-01-01|Precipitation 15 Minute|0.25|PRECIP_15|"
 "|gov.noaa.ncdc:C00313|1900-01-01|2014-01-01|Precipitation Hourly|1.0|PRECIP_HLY|"
 ```
+
+## Database
+
+- Lesson 41 Using databases in Haskell
+
+```shell
+$ stack repl
+ghci> main
+> users
+1.) willkurt
+2.) test
+> tools
+1.) hammer
+ description: hits stuff
+ last returned: 2024-03-14
+ times borrowed: 2
+2.) saw
+ description: cuts stuff
+ last returned: 2017-01-01
+ times borrowed: 0
+> a
+Sorry command not found
+> quit
+bye!
+ghci> :quit
+Leaving GHCi.
+```
