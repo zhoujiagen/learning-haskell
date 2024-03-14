@@ -1,4 +1,8 @@
-# Building projects with stack
+# Unit 6 Organizing code and building projects
+
+# Lesson 35 Building projects with stack
+
+> MacOS.
 
 1. Update stack indexes
 
