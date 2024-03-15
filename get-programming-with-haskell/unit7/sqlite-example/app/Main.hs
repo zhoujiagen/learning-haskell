@@ -2,7 +2,6 @@ module Main (main) where
 
 import qualified Lib
 
-
 -- Database actions
 promptAndAddUser :: IO ()
 promptAndAddUser = do

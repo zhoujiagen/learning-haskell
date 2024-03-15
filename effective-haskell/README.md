@@ -1,4 +1,21 @@
-# Examples from "Effective Haskell".
+# Examples in 'Effective Haskell'
+
+- 1 Getting Started with Haskell
+- 2 Working with Lists
+- 3 Getting Started with Types
+- 4 Creating New Types
+- 5 Creating And Structuring Haskell Projects
+- 6 Type Classes
+- 7 Understanding IO
+- 8 Working with the Local System
+- 9 Introducing Monads
+- 10 Mutable Data in the Real World
+- 11 Serializing Heterogenous Data
+- 12 Deserializing Heterogenous Data
+- 13 Building Applications with Many Effects
+- 14 Building Efficient Programs
+- 15 Programming with Types
+
 
 ## cabal
 

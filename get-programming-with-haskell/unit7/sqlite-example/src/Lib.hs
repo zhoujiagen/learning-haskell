@@ -9,8 +9,10 @@ module Lib
 where
 
 import           Control.Applicative    ()
-import           Data.Time
-import           Database.SQLite.Simple
+import           Data.Time              (Day, UTCTime (utctDay), getCurrentTime)
+import           Database.SQLite.Simple (Connection, FromRow (..), Only (Only),
+                                         Query, close, execute, field, open,
+                                         query, query_)
 
 data Tool = Tool
     {
@@ -56,6 +58,7 @@ withConn dbName action = do
     action conn
     close conn
 
+-- DEV_ENV: The SQLite database file.
 databaseName :: String
 databaseName = "D:\\workspace\\application-store\\sqlite\\data\\tools.db"
 
