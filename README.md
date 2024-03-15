@@ -15,7 +15,10 @@ Playground of Haskell.
 
 ## TODOs
 
+- Library document: `Prelude` in GHC-9.4.8, GHC langauge extensions, etc.
+- [x] Testing framework: QuickCheck.
 - Application configuration: YAML, JSON, etc.
 - Database libraries: MySQL, PostgreSQL, etc.
 - Message Broker libraries: Kafka etc.
-- Web Framework: Yesod.
+- Web framework: Yesod.
+- Build tools configuration: cabal, stack.

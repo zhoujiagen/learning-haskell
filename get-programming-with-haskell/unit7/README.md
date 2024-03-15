@@ -1,9 +1,8 @@
 # Unit 7 Practical Haskell
 
-## HTTP and JSON
+## Lesson 39 Making Http Requests In Haskell, Lesson 40 Working With Json Data By Using Aeson
 
-- Lesson 39 Making Http Requests In Haskell, Lesson 40 Working With Json Data By Using Aeson
-  - http-json-example
+- http-json-example
 
 > Windows.
 
@@ -80,10 +79,9 @@ ghci> main
 "|gov.noaa.ncdc:C00313|1900-01-01|2014-01-01|Precipitation Hourly|1.0|PRECIP_HLY|"
 ```
 
-## Database
+## Lesson 41 Using databases in Haskell
 
-- Lesson 41 Using databases in Haskell
-  - sqlite-example
+- sqlite-example
 
 Set SQLite database file `databaseName` in `src/Lib.hs`.
 

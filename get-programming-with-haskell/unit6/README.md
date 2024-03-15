@@ -1,6 +1,8 @@
 # Unit 6 Organizing code and building projects
 
-# Lesson 35 Building projects with stack
+## Lesson 35 Building projects with stack
+
+- palindrome-checker
 
 > MacOS.
 
@@ -125,4 +127,46 @@ Registering library for palindrome-checker-0.1.0.0..
 Enter a word and I'll let you know if it's a palindrome!
 A man, a plan, a canal: Panama!
 it is!
+```
+
+## Lesson 36 Property testing with QuickCheck
+
+- palindrome-testing
+
+```shell
+$ stack test
+palindrome-testing> test (suite: palindrome-testing-test)
+
+Running tests...
+passed 'racecar'
+passed 'racecar!'
+passed 'cat'
+tests done!
+Running QuickCheck...
++++ OK, passed 100 tests.
++++ OK, passed 3 tests.
+Passed:
+""
+
+Passed:
+"\151925\EOTz>\1101694"
+
+Passed:
+"M\163755zh~\30874G\DC3\185495\&3D\CAN\1102876Vq\DELm\1098578\993464<\160452&#,\a$\1053778\171116\f\ETX@PI\100162!RI\1066939\\zajCO l\NAKT\NAK"
+
++++ OK, passed 3 tests.
+Passed:
+""
+
+Passed:
+"\151925\EOTz>\1101694"
+
+Passed:
+"M\163755zh~\30874G\DC3\185495\&3D\CAN\1102876Vq\DELm\1098578\993464<\160452&#,\a$\1053778\171116\f\ETX@PI\100162!RI\1066939\\zajCO l\NAKT\NAK"
+
++++ OK, passed 3 tests.
+
+QuickCheck done!
+
+palindrome-testing> Test suite palindrome-testing-test passed
 ```
